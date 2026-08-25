@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clonning Git Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/kloudbyte/kb-jenkins'
+                git branch: 'main', url: 'https://github.com/kloudbyte/jenkins-pub.git'
             }
         }
         stage('Building Image') {
